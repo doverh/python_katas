@@ -1,0 +1,26 @@
+Phyton is an interpretor language - doesn~t need to be compiled as JS
+
+Classes
+
+- self is the reference to the object - like this in java
+- Inheritance method - sub inherit methods from super classes
+- Main executes the programs
+
+Dates
+
+ - Look implementations on https://docs.python.org/3/search.html?q=date.today&check_keywords=yes&area=default
+ - from datetime import date/time/datetime 
+ 
+ 
+ Actions: 
+ - Go to a github to see examples of code
+ - Phyton and Django
+ - Udemy Class
+ - Take a look
+ - Create a card on trello 
+ - Besides middletier what else we could do to learn basics
+ - CodeClub projects
+ 
+
+
+
