@@ -14,9 +14,9 @@ import random
 def teamGenerator(category, total_players):
     if category == "name":
         names = []
-        for i in range(total_players):
+        for i in range(1, total_players + 1):
             #insert a name
-            name.append(input("Inform a name for player "+(i+1)))
+            name.append(input("Inform a name for player "+(i)))
         return names
     else:
         names = []
