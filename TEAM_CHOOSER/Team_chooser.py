@@ -35,7 +35,8 @@ def split_teams(teams,num_teams):
         teams=[item for item in teams if item not in team]
         
 #call method    
-split_teams(teamGenerator("number",21),5) 
+split_teams(teamGenerator("number",21),5)
+split_teams(teamGenerator("name",4),2)  
 
 
 

@@ -12,6 +12,34 @@ Dates
  - from datetime import date/time/datetime 
  
  
+ Boolean Operators
+#and or not in not in is is not
+
+Operator precedent
+In which order operations are executed
+***Whats is a lambda expression?
+
+Generators
+range
+
+
+List 
+x = [a,b, c, d]
+
+Dictionary
+x= {"a": 1,...}
+
+Inheritace
+
+class Aninal():
+
+
+
+class Cat(Animal):
+
+https://docs.python.org/3/reference/expressions.html#operator-precedence
+ 
+ 
  Actions: 
  - Go to a github to see examples of code
  - Phyton and Django
