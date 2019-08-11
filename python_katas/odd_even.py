@@ -8,5 +8,10 @@
 # Inform the user the appropriate result - divisible or not 
 
 #solution
-#Convert string input a
-num = input()
+#Convert string input in a int
+num = int(input("Inform a number to divide: "))
+# Evaluate remaider
+if((num % 2) == 0):
+    print("This number is even")
+else:
+    print("This number is odd")
