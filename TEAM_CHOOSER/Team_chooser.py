@@ -12,25 +12,25 @@ import random
 #Function to genereta list of players
 
 def teamGenerator(category, total_players):
-    if category == "name" :
+    if category == "name":
         names = []
-        for i in range(total_players) :
+        for i in range(1, total_players + 1):
             #insert a name
-            name.append(input("Inform a name for player "+(i+1)))
+            name.append(input("Inform a name for player "+(i)))
         return names
-    else :
+    else:
         names = []
-        for i in range(total_players) :
-            names.append(i+1)
+        for i in range(1, total_players + 1):
+            names.append(i)
         return names
 
 #Divide number of players by the number of teams
 
-def split_teams(teams,num_teams):
+def split_teams(teams, num_teams):
     num_players = int(len(teams) / num_teams)
-    for i in range(num_teams):
-        team = random.sample(teams,num_players)
-        print("Team [%s]: %s" % (i+1, team))
+    for i in range(1, num_teams + 1):
+        team = random.sample(teams, num_players)
+        print(f"Team [{i}]: {team}")
         #remove those already in a team
         teams=[item for item in teams if item not in team]
         
