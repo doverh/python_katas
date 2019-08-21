@@ -9,14 +9,19 @@
 
 #solution
 #Convert string input in a int
-class Katas:
-    def isNumberEven(var userInput):
-        try:
-            num = int(userInput)
-            if((num % 2) == 0):
-                print("This number is even")
-            else:
-                print("This number is odd")
-        except ValueError:
-            print("Please enter a number")
+#class Katas(object):
+#def __init__(self):
+#print('instance method called', self)
+        
+#@classmethod    
+
+def isNumberEven(userInput):
+    try:
+        num = int(userInput)
+        if((num % 2) == 0):
+            return("This number is even")
+        else:
+            return("This number is odd")
+    except ValueError:
+        return("Please enter a number")
 
